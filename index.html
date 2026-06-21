@@ -84,9 +84,10 @@ section.archive{padding:78px 48px 70px 48px;background:var(--cream);border-botto
 .mast{text-align:center;padding:24px 20px 12px;}
 .wordmark{font-family:var(--display);font-size:32px;font-weight:900;letter-spacing:-0.6px;color:var(--ink);}
 .wordmark .amp{color:var(--orange);}
-.folio{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap;padding:9px 30px;border-top:1px solid var(--ink);border-bottom:1px solid var(--ink);position:sticky;top:0;z-index:60;background:#FFF;}
+.folio{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap;padding:13px 30px;border-top:1px solid var(--ink);border-bottom:2px solid var(--ink);position:sticky;top:0;z-index:60;background:#FFF;}
+.iss-count{display:inline-block;font-size:11px;font-weight:700;color:#FFF;background:var(--orange);border-radius:10px;padding:1px 8px;letter-spacing:0;vertical-align:middle;margin:0 3px;}
 .folio-nav{display:flex;gap:20px;align-items:center;}
-.folio a,.folio .issues-btn{cursor:pointer;color:var(--ink);text-decoration:none;font-family:var(--body);font-size:11px;font-weight:600;letter-spacing:1.5px;text-transform:uppercase;background:none;border:none;padding:0;}
+.folio a,.folio .issues-btn{cursor:pointer;color:var(--ink);text-decoration:none;font-family:var(--body);font-size:14px;font-weight:700;letter-spacing:0.8px;text-transform:uppercase;background:none;border:none;padding:0;}
 .folio a:hover,.folio .issues-btn:hover{color:var(--orange);}
 .folio-meta{font-size:11px;font-weight:600;letter-spacing:1.5px;text-transform:uppercase;color:var(--muted);white-space:nowrap;}
 .folio .issues-menu{left:0;right:auto;top:38px;min-width:340px;border:1px solid var(--rule);border-radius:8px;box-shadow:0 12px 32px rgba(15,30,55,.12);}
@@ -120,7 +121,7 @@ section.about,section.book,section.archive{background:#FFF;}
 .belief{background:#F5F6F8;}
 .lchip{background:#F5F6F8;}
 @media(max-width:760px){.wordmark{font-size:26px;}.issue-hero h1{font-size:36px;}.lead-h{font-size:29px;}.folio{padding:9px 18px;}.jwrap{padding:0 18px;}}
-</style></head><body><div class="topbar"></div><div class="mast"><div class="wordmark">The Hedgehog <span class="amp">&</span> The Fox</div></div><div class="folio"><div class="folio-nav"><div class="issues-dd"><button class="issues-btn" onclick="toggleMenu(event)">Issues &#9662;</button><div class="issues-menu" id="issuesMenu"><a class="issue-opt sel" data-week="25" onclick="showIssue('25')">Week 25 &middot; 11 to 17 June 2026 <span>current</span></a>
+</style></head><body><div class="topbar"></div><div class="mast"><div class="wordmark">The Hedgehog <span class="amp">&</span> The Fox</div></div><div class="folio"><div class="folio-nav"><div class="issues-dd"><button class="issues-btn" onclick="toggleMenu(event)">TH&amp;TF Issues <span class="iss-count">6</span> &#9662;</button><div class="issues-menu" id="issuesMenu"><a class="issue-opt sel" data-week="25" onclick="showIssue('25')">Week 25 &middot; 11 to 17 June 2026 <span>current</span></a>
 <a class="issue-opt" data-week="24" onclick="showIssue('24')">Week 24 &middot; 4 to 10 June 2026 <span>archive</span></a>
 <a class="issue-opt" data-week="23" onclick="showIssue('23')">Week 23 &middot; 28 May to 3 June 2026 <span>archive</span></a>
 <a class="issue-opt" data-week="22" onclick="showIssue('22')">Week 22 &middot; 21 to 27 May 2026 <span>archive</span></a>
